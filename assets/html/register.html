@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Bank App</title>
+</head>
+
+<body class="bg-secondary">
+
+    <header class="header_container">
+        <div class="welcome_title">
+            <h1 class="bank_title text-white">Black Rock!</h1>
+
+        </div>
+        <nav class="nav_list">
+            <ul class="ul_list">
+                <li class="li_item"><a class="link" href="/index.html">About</a></li>
+                <li class="li_item"><a class="link" href="./assets/html/register.html">Register</a></li>
+                <li class="li_item"><a class="link" href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row forms_label">
+            <div class="col-5 body_cover"></div>
+            <div class="p-5 col-7 d-flex flex-column g-2">
+                <h1 class="text-white">SET UP YOUR ACCOUNT</h1>
+                <form>
+                    <div class="mb-2">
+                        <label for="nameInpEl" class="form-labe text-white">Name</label>
+                        <input type="text" class="form-control" id="nameInpEl" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="surnameInpEl" class="form-labe text-white">Surname</label>
+                        <input type="text" class="form-control" id="surnameInpEl" aria-describedby="emailHelp" />
+                    </div>
+                    <select id="genderSelect" class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                    <!--href="./card.html"-->
+                    <button id="buttonEl" type="button" class="btn btn-primary">
+                        Go to Page
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="footer">
+        <h1 class="text-dark ">Black Rock<small> ©</small></h1>
+        <div class="text-bg-dark">
+            <h6 class="my-2 p-2"> Black Rock ©<br />
+                All Rights Reserved 1988
+            </h6>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./assets/js/bank.js"></script>
+</body>
+
+</html>
